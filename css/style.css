@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header section start from here*/
+.Header_section{
+    background: #000;
+    width: 100%;
+
+}
+.nav-link{
+    color: #eee !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px;
+}
+.nav-link:hover{
+    background: rgb(161, 63, 63);
+    color: white;
+    border-radius: 5px;
+}
+.dropdown-item:hover{
+    background: #ff8b38;
+    color: white;
+}
+.navbar-toggler .fa-solid{
+    color: white !important;
+}
+.nav-item{
+    margin-left: 20px;
+}
+/* Header section end from here*/
+/* Banner section start from here*/
+.Banner_section{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropdown-item{
+    background: rgb(161, 63, 63);
+    margin-top: 5px;
+}
+.banner_content{
+    height: 96vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner_content h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+}
+.text_1{
+    font-size: 72px;
+    color: #ff8b38;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.banner_content h2{
+    color: #eee;
+    padding: 20px 0px;
+    width: 70%;
+}
+.banner_content p{
+    color: #ede1e1;
+    padding: 20px 0px;
+    font-size: 18px;
+    width: 70%;
+}
+.Line_1{
+    height: 2px;
+    width: 100px;
+    margin: 15px 0px;
+    background: #eee;
+   
+}
+.banner_content button{
+    outline: none;
+    border: 2px solid #eee;
+    padding: 10px 30px;
+    background: transparent;
+    color: #fff;
+}
+.banner_content button:hover{
+    background: #ff8b38;
+    color: white;
+    border: none;
+}
+/* Card style start From Here*/
+.form_design{
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.text_2{
+    text-align: center;
+    color: #ff8b38;
+}
+.form-group input{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #212529;
+    margin-bottom: 10px;
+    border-radius: 0%;
+}
+.card-header h1{
+    font-size: 30px;
+}
+.form-group input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.card-footer{
+    background: #ff8b38;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+.card-footer .button_design{
+    width: 100%;
+    border-bottom: none;
+    background:transparent ;
+    font-size: 20px;
+    color: white;
+}
+/* Banner Style end from here*/
+/* Banner Bottom style start from here*/
+.Icon .fa-brands{
+    font-size: 42px;
+    margin-left: 60px;
+
+}
+.Icon  .fa-solid{
+    font-size: 42px;
+    margin-left: 60px;
+
+}
+.Icon{
+    height: 15vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content h3{
+    margin: 25px 0px 0px 0px;
+}
+.content p{
+    width: 83%;
+
+}
+.border_bottom{
+    border-bottom: 1px solid #212529;
+}
+
+/* Banner Bottom style end from here*/
+/* Features style start from here*/
+.features{
+    background: #eee;
+    width: 100%;
+}
+.tab{
+    background: black;
+    color: white;
+    padding: 40px 35px;
+    outline: none;
+    border: none;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.btn{
+    height: 60vh;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.tab1{
+    background:#ff8b38;
+    color: white;
+    padding: 40px 35px;
+    outline: none;
+    border: none;
+    margin-top: 3px;
+    font-weight: bold;
+
+}
+.item_1{
+    height: 60vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.item_1 h2{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.item_1 button{
+    padding: 12px 35px;
+    margin: 20px 0px 0px 0px;
+    outline: none;
+    border: none;
+    background: #ff8b38;
+    border-radius: 3px;
+}
+.item_1 button:hover{
+    padding: 17px 40px;
+    transition: 0.4s;
+}
+.item_1 span{
+    display: block;
+    margin-top: 10px;
+}
+.item_2{
+    height: 70vh;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.item_2 img{
+    width: 100%;
+}
+/* Features style end from here*/
+/* Banner_2 style start from here*/
+.inner_1 img{
+
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ff8b38;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+.inner_1{
+    display: flex;
+}
+.inner_2{
+    padding: 0px 35px;
+}
+.line_2{
+    margin: 20px 0px;
+    height: 2px;
+    width: 100px;
+    background: #ff8b38;
+}
+/* Banner_2 style end from here*/
+/* Banner_3 style start from here*/
+.banner_section_3{
+    background: #eee;
+    width: 100%;
+    border-top: 2px solid #212529;
+}
+.item_3{
+    height: 60vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.item_3 .line_3{
+    height: 2px;
+    width: 100px;
+    margin: 20px 0px;
+    background: #ff8b38;
+
+}
+.item_3 span{
+    display: block;
+    margin-top: 20px;
+    width: 80%;
+}
+.item_3 p{
+    width: 80%;
+}
+.item_3 img{
+    margin-top: 90px;
+    width: 100%;
+}
+/* Banner_3 style end from here*/
+/* Banner_4 style start from here*/
+.item_4{
+    height: 20vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.line_4{
+    margin:20px  auto;
+    height: 2px;
+    width: 100px;
+    background: #ff8b38;
+}
+/* Banner_4 style end from here*/
+/* Banner_5 style start from here*/
+.item_5{
+    text-align: center;
+    padding: 20px;
+}
+.item_5 img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+.item_5 h2{
+    margin: 20px 0px;
+}
+/* Banner_5 style end from here*/
+/* Banner_6 style start from here*/
+.banner_section_6{
+    width: 100%;
+    background: #eee;
+    border-bottom: 2px solid #212529;
+}
+.item_6{
+    height: 20vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.item_6 h2{
+    text-transform: uppercase;
+}
+.item_6 p{
+    font-size: 18px;
+}
+.line_6{
+    margin:20px  auto;
+    height: 2px;
+    width: 100px;
+    background: #ff8b38;
+}
+/* Banner_6 style end from here*/
+/* Banner_7 style start from here*/
+.banner_section_7{
+    background: #eee;
+}
+.item_7{
+    background: black;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.item_7 h3{
+    padding: 15px 0px;
+}
+.item_7 h3{
+    margin: 20px 0px;
+}
+.line_5{
+    width: 100%;
+    height: 2px;
+    background: #eee;
+}
+.item_7 h1{
+    padding: 20px 0px;
+}
+.line_7{
+    width: 100%;
+    height: 5px;
+    background: #ff8b38;
+
+}
+.item_7 ul{
+    background: white;
+}
+.item_7  ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.item_7  ul li a{
+    text-decoration: none;
+    color: black;
+}
+.line_8{
+    width: 100%;
+    height: 55px;
+    background: #ff8b38;
+
+}
+.line_8 h4{
+    padding: 10px;
+    text-align: center;
+}
+.second{
+    margin-top: 100px;
+}
+.item_7 p{
+    margin: 20px 0px;
+    color: #eee;
+}
+.item_7 span{
+    font-size: 82px;
+    font-weight: bold;
+}
+.item_7 h1{
+    font-size: 32px;
+}
+.item_7{
+    margin-bottom: 70px;
+}
+
+/* Banner_7 style end from here*/
+/* Banner_8 style Start from here*/
+.inner_line{
+    margin: 30px auto;
+    height: 3px;
+}
+.item_6 p{
+    font-size: 20px;
+}
+.item_6 h2{
+    font-size: 50px;
+}
+/* Banner_8 style end from here*/
+/* Banner_9 style Start from here*/
+.item_8{
+    height: 50vh;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.inner{
+    display: flex;
+}
+.inner .inner_3{
+    margin-left: 50px;
+}
+.item_8 p{
+    background: #eee;
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+
+/* Banner_9 style end from here*/
+/* Banner_10 style Start from here*/
+.banner_section_10{
+    background: url(../img/u25_state0.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item_6{
+    height: 35vh;
+}
+.color_1{
+    color: white;
+}
+.item_6 button{
+    padding: 12px 35px;
+    outline: none;
+    border: 2px solid #eee;
+    background: transparent;
+    color: white;
+    margin: 20px 0px;
+}
+.item_6 button:hover{
+    padding: 17px 40px;
+    border: none;
+    background:#ff8b38;
+    color: white;
+    transition: 0.4s;
+}
+
+/* Banner_10 style end from here*/
+/* Banner_12 style Start from here*/
+.item_9 input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 15px;
+    border-bottom: 2px solid #eee;
+    margin: 5px 0px;
+}
+.text_3{
+    height: 160px;
+    margin-top: 20px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #eee;
+
+}
+.item_10 button{
+    margin: 40px 0px;
+    padding: 12px 35px;
+    outline: none;
+    border: 2px solid #212529;
+    font-size: 18px;
+    background: transparent;
+
+}
+.item_10 button:hover{
+    border: none;
+    background: black;
+    color: white;
+    padding: 17px 40px;
+    transition: 0.4s;
+    font-weight: 400;
+}
+/* Banner_12 style end from here*/
+/* Footer Design Start From here*/
+.banner_section_13{
+    background: black;
+    width: 100%;
+    padding: 30px 0px;
+}
+.item_11 .fa-brands{
+    font-size: 32px;
+    margin-left: 50px;
+    color: white;
+
+}
+.item_11 .fa-solid{
+    font-size: 32px;
+    margin-left: 50px;
+    color: white;
+    
+    
+}
+
+/* Footer Design end From here*/
+
